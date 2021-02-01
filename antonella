@@ -114,7 +114,7 @@ class Antonella
             case 'block':
                 return $this->makeGutenbergBlock($data);
 				break;
-			case 'theme':
+			case 'maketheme':
 				return $this->makeTheme($data);
 				break;
             default:
