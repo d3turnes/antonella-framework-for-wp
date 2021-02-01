@@ -48,15 +48,24 @@ Edite el fichero .env y rellene con sus credenciales
 DBUSER=root
 DBNAME=
 DBPASS=
+
+TESTDIR=wp-test
+PORT=8010
+LOCALE=en_US
 ```
 
-El port por default es el 8010 si deas cambiarlo edite el fichero `.env` y agregre al final del fichero PORT=xxxx
+```text
+Ahora es posible cambiar el puerto por default(8010) por cualquier otro, el [locale](https://www.aurodigo.com/2015/02/wordpress-locale-codes-complete-list.html) y el directorio para instalar wordpress.
+```
 
 ```test
 DBUSER=root
 DBNAME=
 DBPASS=
+
+TESTDIR=wp-test
 PORT=8080
+LOCALE=es_ES
 ```
 
 Luego ejecute

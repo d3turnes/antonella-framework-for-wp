@@ -131,7 +131,10 @@ Montar un WP localmente con [Antonella Framework](https://antonellaframework.com
 
 [Dale al play bro](https://www.youtube.com/watch?v=An4t8LKX2-I)
 
-Recuerda rellenar tu fichero .env con los datos correspondientes
+```text
+Recuerda rellenar tu fichero .env con los datos correspondientes, ahora es posible cambiar el port(8010), el locale(en_US) y
+el directorio donde se instalará wordpress testdir(wp-dir)
+```
 
 `cp -r .env-example .env`
 
