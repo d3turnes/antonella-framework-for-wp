@@ -26,9 +26,9 @@ Versión 1.8 es un Fork de Antonella Framework
 create a folder for yours antonella framework's projects and execute
 
 ```bash
-~~`composer create-project --prefer-dist cehojac/antonella-framework-for-wp:dev-master my-awesome-plugin`~~
-~~`git clone --branch 1.8 https://github.com/d3turnes/antonella-framework-for-wp my-awesome-plugin`~~
-`composer create-project --prefer-dist cehojac/antonella-framework-for-wp:1.8-old my-awesome-plugin`
+~~composer create-project --prefer-dist cehojac/antonella-framework-for-wp:dev-master my-awesome-plugin~~
+~~git clone --branch 1.8 https://github.com/d3turnes/antonella-framework-for-wp my-awesome-plugin~~
+composer create-project --prefer-dist cehojac/antonella-framework-for-wp:1.8-old my-awesome-plugin
 ```
 
 my-awesome-plugin is your project's plugin
